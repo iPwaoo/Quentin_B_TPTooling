@@ -154,7 +154,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="MyTool.cpp" />
+    <ClCompile Include="Packager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Packager.h" />
+    <ClInclude Include="single_include\nlohmann\json.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
